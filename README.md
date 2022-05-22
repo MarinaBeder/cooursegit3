@@ -6,3 +6,4 @@ Node P[0] Seek block -> 273
 	4.- The bus arbiter grants bus to node P0
 	5.- Transfer of block 273 from main memory
         ح
+State Transition In Cache:

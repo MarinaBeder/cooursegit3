@@ -7,4 +7,4 @@ Node P[0] Seek block -> 273
 	5.- Transfer of block 273 from main memory
         ح
 State Transition In Cache:
-
+x

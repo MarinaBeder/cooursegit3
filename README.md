@@ -277,6 +277,7 @@ MODIFIED ---> INVAILD
 
 \``` 
 
+
 Node P[1] Seek block -> 273
 	1.- Writing request (PrWr)
 	2.- Miss in cache
@@ -291,6 +292,38 @@ Node P[1] Seek block -> 273
 ***\*State Transition In Cache:\**** 
 
  
+
+\``` 
+
+INVAILD ---> MODIFIED
+
+\``` 
+
+
+ \> ***\*Accesses number: 10\**** 
+
+ 
+
+<img src="[cooursegit3/Access_Number 6.PNG at main · MarinaBeder/cooursegit3 (github.com)](https://github.com/MarinaBeder/cooursegit3/blob/main/Access_Number 6.PNG)" style="zoom:80%;" /> 
+
+ 
+
+\``` 
+
+Node P[1] Seek block -> 273
+	1.- Writing request (PrWr)
+	2.- Miss in cache
+	3.- Bus exclusive reading request (BusRdX)
+	4.- The bus arbiter grants bus to node P0
+	5.- Transfer of block 273 from node P1
+
+\``` 
+
+ 
+
+***\*State Transition In Cache:\**** 
+
+ <img src="[cooursegit3/Access_Number 6.PNG at main · MarinaBeder/cooursegit3 (github.com)](https://github.com/MarinaBeder/cooursegit3/blob/main/Access_Number 6.PNG)" style="zoom:80%;" /> 
 
 \``` 
 
